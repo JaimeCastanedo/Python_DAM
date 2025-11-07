@@ -6,3 +6,9 @@ Si un dado se obtiene seis, mostrar el mensaje “Regular”
 Si ningún dado se obtiene seis, mostrar el mensaje “Pésimo”
 (Use el control switch).
 """
+
+seis = 0
+
+match seis:
+    case 0:
+        print("")
