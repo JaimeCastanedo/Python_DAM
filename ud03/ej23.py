@@ -1,0 +1,5 @@
+"""Dibuja un ordinograma de un programa que lea una secuencia de números no nulos hasta
+que se introduzca un 0, y luego muestre si ha leído algún número negativo, cuantos positivos y
+cuantos negativos
+"""
+
