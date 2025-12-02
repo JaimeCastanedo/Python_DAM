@@ -1,13 +1,10 @@
 """Construir manualmente una nueva cadena añadiendo un carácter a la vez (ejemplo: filtrar caracteres o construir cadenas invertidas)."""
 
-a = 1
+nuevaCad = ""
 
-while a != 0:
-    cad = ""
-    cad2 = str(input("Dime un caracter para crear una cadena, para terminar pulsa el numero 0: "))
-    if a != 0:
-        cad = cad + cad2
-    else:
-        a = 0
+cad = str(input("Dime una cadena de caracteres: "))
 
-print(cad)
+for i in cad:
+    nuevaCad += i
+
+print(nuevaCad)
