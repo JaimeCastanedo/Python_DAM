@@ -19,7 +19,6 @@ a = int(input("Dime la altura: "))
 
 for j in range(2):
     if j == 0:
-        
         for i in range(a):
             if i == 0 or i == a-1:
                 print(" "*(a-i+a) + "*"*(2*i+1))
